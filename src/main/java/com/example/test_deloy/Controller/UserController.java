@@ -16,6 +16,6 @@ public class UserController {
 
     @PostMapping
     private String sda() {
-        return "123123123";
+        return "post method";
     }
 }
