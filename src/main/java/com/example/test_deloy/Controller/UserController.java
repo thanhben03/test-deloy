@@ -18,4 +18,9 @@ public class UserController {
     public String update() {
         return "updated success !";
     }
+
+    @GetMapping("/file")
+    public String getFileSuccess() {
+        return "get file success !";
+    }
 }
