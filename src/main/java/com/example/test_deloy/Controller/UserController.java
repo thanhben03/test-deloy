@@ -10,12 +10,12 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
 
     @GetMapping
-    private String test() {
-        return "ahiihi 123123123";
+    public String create() {
+        return "created success !";
     }
 
     @PostMapping
-    private String sda() {
-        return "post method";
+    public String update() {
+        return "updated success !";
     }
 }
